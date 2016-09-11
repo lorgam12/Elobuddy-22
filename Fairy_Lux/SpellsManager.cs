@@ -27,7 +27,7 @@ namespace Fairy_Lux
             {
                 AllowedCollisionCount = int.MaxValue
             };
-            R = new Spell.Skillshot(SpellSlot.R, 3340+3000, SkillShotType.Circular, 1000, int.MaxValue, 110)
+            R = new Spell.Skillshot(SpellSlot.R, 3340+1000, SkillShotType.Circular, 1000, int.MaxValue, 110)
             {
                 AllowedCollisionCount = int.MaxValue
             };
