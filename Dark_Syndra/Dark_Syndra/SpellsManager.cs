@@ -25,7 +25,7 @@ namespace Dark_Syndra
             {
                 AllowedCollisionCount = int.MaxValue
             };
-            W = new Spell.Skillshot(SpellSlot.W, 950, SkillShotType.Circular, 350, 1500, 130)
+            W = new Spell.Skillshot(SpellSlot.W, 990, SkillShotType.Circular, 350, 1500, 140)
             {
                 AllowedCollisionCount = int.MaxValue
             };
@@ -35,11 +35,11 @@ namespace Dark_Syndra
             };
             R = new Spell.Targeted(SpellSlot.R, 675);
 
-            QE = new Spell.Skillshot(SpellSlot.E, 1100, SkillShotType.Linear, 600, 2400, 18)
+            QE = new Spell.Skillshot(SpellSlot.E, 1100, SkillShotType.Linear, 600, 2400, 30)
             {
                 AllowedCollisionCount = int.MaxValue
             };
-            WE = new Spell.Skillshot(SpellSlot.E, 1100, SkillShotType.Circular, 600, 2401, 18)
+            WE = new Spell.Skillshot(SpellSlot.E, 1100, SkillShotType.Circular, 600, 2401, 30)
             {
                 AllowedCollisionCount = int.MaxValue
             };
